@@ -59,12 +59,11 @@ body{
 }
 
 .picture{
-	background-image: url(Rectangle 2.png);
+	background-image: url(Foto.jpg);
 	width: 588px;
 	height: 288px;
 	background: cover;
 	position: absolute;
-	opacity: 0.9;
 	border-radius:10px ;
 }
 
