@@ -4,6 +4,7 @@ body{
 }
 
 .navbar{
+	z-index: 999;
 	padding: 10px;
 	background-color: #fff;
 
@@ -62,6 +63,7 @@ body{
 	width: 588px;
 	height: 288px;
 	background: cover;
+	position: absolute;
 }
 
 .picture p{
@@ -70,7 +72,8 @@ body{
 
 .box{
 	background-color: #001b48;
-	z-index: -2;
+	margin-top: 150px;
+
 }
 
 .box h3{
