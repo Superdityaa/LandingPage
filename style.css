@@ -71,6 +71,10 @@ body{
 	padding-left:10px;
 }
 
+.picture h3{
+	margin-bottom: 150;
+}
+
 .box{
 	background-color: #001b48;
 	margin-top: 150px;
