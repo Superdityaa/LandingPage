@@ -67,3 +67,8 @@ body{
 .picture p{
 	padding-left:10px;
 }
+
+.box{
+	background-color: tomato;
+	padding: 150px;
+}
