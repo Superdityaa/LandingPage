@@ -113,7 +113,7 @@ body{
 	font-size:20px;
 	line-height:24px;
 	text-align: center;
-	height:99px;
+	height:59px;
 	color: #02457A;	
 }
 
@@ -139,12 +139,4 @@ body{
 .card-text-2{
 	font-size: 20px;
 	font-weight: 200px;
-}
-
-.last-text p{
-	margin-top:45px;
-	text-align: center;
-	font-size: 30px;
-	padding-top:50px;	
-	color: #02457A;
 }
