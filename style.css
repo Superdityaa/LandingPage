@@ -100,11 +100,21 @@ body{
 }
 
 .team h2{
-	margin-left: 10em;
+	margin-top:45px;
+	text-align: center;
 	font-size: 50px;
-	padding: 60px;
+	padding-top:50px;	
 	color: #02457A;
 	font-weight: 700;
+}
+
+.team p{
+	font-weight: 400;
+	font-size:20px;
+	line-height:24px;
+	text-align: center;
+	height:99px;
+	color: #02457A;	
 }
 
 .card-col{
