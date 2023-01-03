@@ -139,14 +139,24 @@ body{
 	font-weight: 200px;
 }
 
-.last-text{
+.last-text p{
 	font-size: 20px;
 	margin-top: 70px;
-	font-weight: 500;
+	font-weight: 700;
+	color: #02457a;
+}
+
+.feature{
+	margin: 90px;
+	padding: 50px;
+}
+
+.row{
+	padding: 20px 10px;
+	margin:20px;
 }
 
 .feature h2{
-	margin-top:70px;
 	text-align: center;
 	font-size: 50px;
 	padding-top:50px;	
@@ -155,11 +165,35 @@ body{
 }
 
 .feature p{
-	padding-top: 30px;
+	padding-top: 10px;
 	font-weight: 400;
 	font-size:20px;
 	line-height:24px;
 	text-align: center;
 	height:59px;
 	color: #02457A;	
+	margin-top:10px;
+}
+
+.features-box{
+	background-color: #02457a;
+	border-radius: 10px;
+	padding: 10px 10px;
+	margin: 15px;
+}
+
+.features-box h4{
+	font-weight:700;
+	font-size:25px;
+	line-height:30px;
+	text-align:center;
+	padding: 10px;
+}
+
+.features-box p{
+	font-weight:400;
+	font-size:20px;
+	line-height: 24px;
+	justify-content: center;
+	padding: 10px;
 }
