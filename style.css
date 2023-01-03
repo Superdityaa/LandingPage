@@ -1,6 +1,7 @@
 body{
 	margin: 0;
 	padding:0;
+	overflow-x: hidden;
 }
 
 .navbar{
@@ -46,7 +47,6 @@ body{
 	-webkit-text-fill-color: transparent;
 }
 
-
 .logo ul li{
 	list-style: none;
 	text-align:right;
@@ -89,7 +89,6 @@ body{
 }
 
 .isi{
-
 	font-size: 25px;
 	line-height: 30px;
 	text-align: center;
@@ -144,4 +143,23 @@ body{
 	font-size: 20px;
 	margin-top: 70px;
 	font-weight: 500;
+}
+
+.feature h2{
+	margin-top:70px;
+	text-align: center;
+	font-size: 50px;
+	padding-top:50px;	
+	color: #02457A;
+	font-weight: 700;
+}
+
+.feature p{
+	padding-top: 30px;
+	font-weight: 400;
+	font-size:20px;
+	line-height:24px;
+	text-align: center;
+	height:59px;
+	color: #02457A;	
 }
