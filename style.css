@@ -99,3 +99,19 @@ body{
 	font-weight: 200;
 	font-family: calibri;
 }
+
+.team h2{
+	margin-left: 10em;
+	font-size: 50px;
+	padding: 60px;
+	color: #02457A;
+	font-weight: 700;
+}
+
+.card-col{
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	padding: 40px;
+}
