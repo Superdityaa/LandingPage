@@ -8,6 +8,8 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- animate on scrol -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
     <title>Company Profile</title>
@@ -74,47 +76,57 @@
       </div>
   </section>
 <!-- Akhir isi -->
+<!-- Card -->
   <section>
     <div class="team">
-      <h2>Meet Our Team</h2>
+      <div data-aos="flip-up" data-aos-duration="1000">
+        <h2>Meet Our Team</h2>
+        <p>We highly qualified and skilled team</p>
+      </div>
     </div>
     <div class="card-col">
-      <div class="card" style="width: 18rem;">
-      <img src="Foto.jpg" class="card-img-top">
-        <div class="card-body">
-        <p class="card-text"><b>Gilang Romy</b></p>
-        <p></p>
+      <div data-aos="fade-right" data-aos-duration="2000">
+        <div class="card" style="width: 18rem;">
+          <img src="Foto.jpg" class="card-img-top">
+          <div class="card-body">
+            <p class="card-text"><b>Gilang Romy</b></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, accusamus.</p>
+          </div>
         </div>
       </div>
 
-      <div class="card" style="width: 18rem;">
-        <img src="Foto.jpg" class="card-img-top">
-          <div class="card-body">
-          <p class="card-text-1"><b>Aditiya Mahendra</b></p>
-          <span>
-            <p>Known as UI/UX Designer</p>
-          </span>
-            <p>5 years experience</p>
-          </div>
-        </div>
-
+      <div data-aos="fade-down" data-aos-duration="2000">
         <div class="card" style="width: 18rem;">
           <img src="Foto.jpg" class="card-img-top">
             <div class="card-body">
-            <p class="card-text-2"><b>Gatau Siapa</b></p>
+              <p class="card-text-1"><b>Aditiya Mahendra</b></p>
+            <span>
+              <p>Known as UI/UX Designer</p>
+            </span>
+              <p>5 years experience</p>
             </div>
-          </div>
+        </div>
+      </div>
+
+      <div data-aos="fade-left" data-aos-duration="2000">
+        <div class="card" style="width: 18rem;">
+          <img src="Foto.jpg" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text-2"><b>Gatau Siapa</b></p>
+            </div>
+        </div>
+      </div>
     </div>
-
-
-
-
   </section>
+<!-- AkhirCard -->
 
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
     
 </body>
 </html>
