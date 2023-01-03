@@ -114,3 +114,19 @@ body{
 	flex-wrap: nowrap;
 	padding: 40px;
 }
+
+
+.card-text{
+	font-size: 20px;
+	font-weight: 200px;
+}
+
+.card-text-1{
+	font-size: 20px;
+	font-weight: 200px;
+}
+
+.card-text-2{
+	font-size: 20px;
+	font-weight: 200px;
+}
