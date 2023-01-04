@@ -256,7 +256,7 @@ body{
 }
 
 .contact {
-	margin: 50px;
+	margin: 50px 0 0 50px ;
 	padding-top: 50px;
 
 }	
@@ -271,7 +271,7 @@ body{
 
 .contact h2{
 	font-weight:700;
-	font-size: 35px;
+	font-size: 20px;
 	line-height:68px;
 	color: #012959;
 	padding: 10px 0px;
@@ -283,7 +283,7 @@ body{
 	font-size:25px;
 	border-radius: 10px;
 	width: 15%;
-	margin: 0px 85px;
+	margin: 0px 75px 0 75px;
 }
 
 .contact .chat{
@@ -297,7 +297,7 @@ body{
 
 .contact .chat1{
 	font-weight:500;
-	font-size:15px;
+	font-size:13px;
 	line-height:27px;
 	letter-spacing: 0.05em;
 	text-align: center;
@@ -305,7 +305,7 @@ body{
 
 .contact .chat2{
 	font-weight:500;
-	font-size:14px;
+	font-size:13px;
 	line-height:27px;
 	letter-spacing: 0.05em;
 	text-align: center;
