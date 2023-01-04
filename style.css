@@ -243,3 +243,15 @@ body{
 	letter-spacing: 0.05em;
 	text-align: center;
 }
+
+.box-last{
+	background-color: #001b48;
+	margin-top: 100px;
+	height: 40em;
+}
+
+.meeting{
+	margin: 0 0 70px 200px;
+	padding-top: 90px;
+	float: right;
+}
